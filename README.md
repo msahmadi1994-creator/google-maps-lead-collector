@@ -1,157 +1,100 @@
-Google Maps Lead Collector
+# 📍 Google Maps Lead Collector
 
-A free Python desktop application for collecting and organizing business leads from Google Maps.
+> **A free Python desktop application for collecting and organizing business leads from Google Maps.**
 
 Google Maps Lead Collector helps freelancers, sales professionals, marketing agencies, and business owners find local businesses and organize their information for lead generation, sales prospecting, and market research.
 
-🖥️ Desktop GUI
+---
 
-🌐 English and Persian versions
+### 🌟 Key Highlights
+* 🖥️ **Desktop GUI**
+* 🌐 **English and Persian versions**
+* 🔎 **Automated Google Maps browsing with Playwright**
+* 📊 **Multiple export formats**
+* 🗄️ **SQLite database for persistent storage**
+* 🔄 **Live results as businesses are collected**
 
-🔎 Automated Google Maps browsing with Playwright
+---
 
-📊 Multiple export formats
-
-🗄️ SQLite database for persistent storage
-
-🔄 Live results as businesses are collected
-
-📸 Screenshots
-
-<!-- Add screenshots to the screenshots/ folder before publishing these images. -->
-
-Main Application
-
-
-
-Search Results
-
-
-
-Exported Data
-
-
-
-🚀 What Is This Tool?
+## 🚀 What Is This Tool?
 
 Finding potential customers manually can take a lot of time. Google Maps Lead Collector automates parts of the business research process by browsing Google Maps, collecting available business information, and organizing the results in a desktop application.
 
 You can search for businesses by keyword and location, monitor collected results, avoid duplicate entries, and export your data for further use.
 
-🎯 Use Cases
+---
+## 🎯 Use Cases
 
-Lead Generation: Build lists of potential customers.
+* **Lead Generation:** Build lists of potential customers.
+* **Sales Prospecting:** Find businesses to contact about products or services.
+* **Web Design Agencies:** Research local businesses that may need website services.
+* **Digital Marketing:** Identify businesses for marketing and SEO campaigns.
+* **Market Research:** Explore businesses in a specific location or industry.
+* **Business Directories:** Collect and organize local business information.
+* **Freelancing:** Research potential clients in your target market.
 
-Sales Prospecting: Find businesses to contact about products or services.
+---
 
-Web Design Agencies: Research local businesses that may need website services.
+## ✨ Features
 
-Digital Marketing: Identify businesses for marketing and SEO campaigns.
+* **Graphical User Interface:** Use the application without working directly in the command line.
+* **English and Persian Interfaces:** Choose the version that suits you.
+* **Automated Browsing:** Uses Playwright to interact with Google Maps.
+* **Live Results:** View businesses as they are collected.
+* **Business Information Extraction:** Collect available business names, phone numbers, and addresses.
+* **Duplicate Prevention:** Normalize Google Maps links to help prevent duplicate records.
+* **Incomplete Data Handling:** Attempt to complete missing information when available.
+* **SQLite Storage:** Preserve collected data in a local database.
+* **Search History Management:** Clear search history when needed.
+* **Results Management:** Clear displayed results independently.
+* **Database Reset:** Reset stored records when necessary.
+* **Data Export:** Export collected information into supported file formats.
 
-Market Research: Explore businesses in a specific location or industry.
+> ⚠️ **Note:** The information collected depends on what Google Maps makes available and how its pages behave. Not every business will have complete contact information.
+---
 
-Business Directories: Collect and organize local business information.
+## 📁 Supported Export Formats
 
-Freelancing: Research potential clients in your target market.
+| Format | File extension | Typical use |
+| :--- | :--- | :--- |
+| **CSV** | `.csv` | Spreadsheets and data processing |
+| **Excel** | `.xlsx` | Reviewing and organizing leads |
+| **JSON** | `.json` | Developers and data integration |
+| **Text** | `.txt` | Simple text-based records |
+| **SQLite** | `.sqlite3` | Local database storage |
 
-✨ Features
+> Export options may vary by application version. SQLite is used for persistent storage; do not assume every format is available through every export button.
 
-Graphical User Interface: Use the application without working directly in the command line.
+---
+## 🛠️ Technology Stack
 
-English and Persian Interfaces: Choose the version that suits you.
+* **Python** — Application logic
+* **Tkinter** — Desktop graphical interface
+* **Playwright** — Browser automation
+* **SQLite** — Local database storage
+* **CSV, JSON, Excel and text formats** — Data export
 
-Automated Browsing: Uses Playwright to interact with Google Maps.
+---
 
-Live Results: View businesses as they are collected.
+## 💻 Requirements
 
-Business Information Extraction: Collect available business names, phone numbers, and addresses.
+* Windows, or another operating system supported by the required dependencies
+* Python 3
+* Internet connection
+* Playwright and its required browser
 
-Duplicate Prevention: Normalize Google Maps links to help prevent duplicate records.
+> Compatibility may depend on the operating system, Python version, and installed browser dependencies.
 
-Incomplete Data Handling: Attempt to complete missing information when available.
+---
 
-SQLite Storage: Preserve collected data in a local database.
+## ⚙️ Installation
 
-Search History Management: Clear search history when needed.
+### 1. Clone the repository
+'''bash
+git clone [https://github.com/msahmadi1994-creator/google-maps-lead-collector.git](https://github.com/msahmadi1994-creator/google-maps-lead-collector.git)
+cd google-maps-lead-collector 
 
-Results Management: Clear displayed results independently.
-
-Database Reset: Reset stored records when necessary.
-
-Data Export: Export collected information into supported file formats.
-
-The information collected depends on what Google Maps makes available and how its pages behave. Not every business will have complete contact information.
-
-📁 Supported Export Formats
-
-Format
-
-File extension
-
-Typical use
-
-CSV
-
-.csv
-
-Spreadsheets and data processing
-
-Excel
-
-.xlsx
-
-Reviewing and organizing leads
-
-JSON
-
-.json
-
-Developers and data integration
-
-Text
-
-.txt
-
-Simple text-based records
-
-SQLite
-
-.sqlite3
-
-Local database storage
-
-Export options may vary by application version. SQLite is used for persistent storage; do not assume every format is available through every export button.
-
-🛠️ Technology Stack
-
-Python — Application logic
-
-Tkinter — Desktop graphical interface
-
-Playwright — Browser automation
-
-SQLite — Local database storage
-
-CSV, JSON, Excel and text formats — Data export
-
-💻 Requirements
-
-Windows, or another operating system supported by the required dependencies
-
-Python 3
-
-Internet connection
-
-Playwright and its required browser
-
-Compatibility may depend on the operating system, Python version, and installed browser dependencies.
-
-⚙️ Installation
-
-1. Clone the repository
-
-git clone https://github.com/msahmadi1994-creator/google-maps-lead-collector.git
-cd google-maps-lead-collector
+-------------
 
 2. Install dependencies
 
