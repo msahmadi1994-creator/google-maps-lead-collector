@@ -275,8 +275,21 @@ Submitting pull requests.
 Check the repository for a LICENSE file to determine the applicable license and permissions before redistributing or using this project commercially.
 
 👨‍💻 Author
-
 MSA
+
+## 📸 Screenshots
+
+### English Version
+![English Application](screenshots/English.png)
+
+### Persian Version
+![Persian Application](screenshots/persian.png)
+
+### Google Maps Results
+![Google Maps Results](screenshots/map.png)
+
+### Excel Export
+![Excel Export](screenshots/Excel.png)
 -----------------------------------------------
 # معرفی پروژه Google Maps Lead Collector
 
